@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="image--container">
+            <img src="https://campus.w3schools.com/cdn/shop/files/react_930c122c-8d12-4a0a-85ef-67ca7e78bccf_1078x1078.png?v=1734688338"
+                alt="anh">
+        </div>
+        <div class="infomation--container">
+            <div class="tittle--infomation">
+                <h1 style="size: 48px;">Let's level up your brank, together</h1>
+                <p>You can read us any time via <a style="color: blueviolet;">"hi@untitledui.com"</a></p>
+            </div>
+            <form action="/action_page.php">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Enter your name"><br>
+
+                <label for="lname">Email:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Enter your email"><br>
+
+                <div class="numberphone--item"><br>
+                    <label for="number">Phone Number:</label><br>
+                    <select name="number" id="number">
+                        <option value="US">US</option>
+                        <option value="VietNam">Viet Nam</option>
+                    </select>
+                    <input type="text" id="number" value="Enter your number phone">
+                </div>
+
+                <div class="help--container">
+                    <label for="help">How can we help:</label><br>
+                    <textarea class="textarea--container" name="help" id="help"
+                        placeholder="Tell us a little about the project.."></textarea><br>
+                </div>
+
+                <div class="services--container">
+                    <label for="Services">Services:</label><br>
+                    <div class="checkbox-container">
+                        <form action="/action_page.php">
+                            <div class="checkbox--column1">
+                                <input type="checkbox" id="Website design" name="Website design" value="Website design">
+                                <label for="Website design">Website design</label><br>
+
+                                <input type="checkbox" id="Website design" name="Website design" value="Website design">
+                                <label for="Website design">Website design</label><br>
+
+                                <input type="checkbox" id="Website design" name="Website design" value="Website design">
+                                <label for="Website design">Website design</label><br>
+                            </div>
+                            <div class="checkbox--column2">
+
+                                <input type="checkbox" id="Website design" name="Website design" value="Website design">
+                                <label for="Website design">Website design</label><br>
+
+                                <input type="checkbox" id="Website design" name="Website design" value="Website design">
+                                <label for="Website design">Website design</label><br>
+
+                                <input type="checkbox" id="Website design" name="Website design" value="Website design">
+                                <label for="Website design">Website design</label><br>
+                            </div>
+                    </div>
+                </div>
+                <button>Get started</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

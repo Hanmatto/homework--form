@@ -1,0 +1,102 @@
+*{
+    box-sizing: inherit;
+
+}
+
+
+body{
+    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+} 
+
+.header{
+    display: flex;
+    width: 1510px;
+    height: 1106px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.image--container img{
+    max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: 790px;
+    height: 1106px;
+}
+
+form label{
+    width: 400px;
+    margin: 20px;
+}
+
+.infomation--container{
+
+    width: 100%;
+    max-width: 720px;
+    height: 1106px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+form{
+    margin: 12px;
+}
+
+.infomation--container div{
+    width: 100%;
+    max-width: 512px;
+    height: 174px;
+    gap: 24px;
+}
+
+.title--infomation{
+    line-height: 60px;
+    width: 600px;
+    height: 120px;
+    letter-spacing: -2%;
+    color: #101828;
+    margin-top: 30px;
+}
+
+.checkbox-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textarea--container{
+    width: 400px;
+    height: 120px;
+    border: 1px solid #CDCDCD;
+    resize: none;
+}
+button{
+    display: block;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 400px;
+    height: 35px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-color: aliceblue;
+    gap: 16px;
+    border-radius: 9px;
+}
+
+
+
